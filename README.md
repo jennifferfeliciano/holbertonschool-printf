@@ -8,13 +8,13 @@ This project implements a custom function called _printf. This function emulates
 
 
 ## Table of Contents
-* [Introduction](Introduction)
-* [How to Use](How-to-Use)
-* [Usage/Example](Usage/Example)
-* [Supported Format Specifiers](Supported-Format-Specifiers)
-* [File Descriptions](File-Descriptions)
-* [Compilation](Compiltion)
-* [Author](Author)
+* [Introduction](#Introduction)
+* [How to Use](#How-to-Use)
+* [Usage/Example](#Usage/Example)
+* [Supported Format Specifiers](#Supported-Format-Specifiers)
+* [File Descriptions](#File-Descriptions)
+* [Compilation](#Compiltion)
+* [Author](#Author)
 ## Introduction
 The _printf function is a custom implementation of printf in C. It takes a format string and variable arguments, printing data types based on format specifiers. Supported specifiers include %c (characters), %s (strings), %i or %d (integers), and %% (percent symbol).
 
