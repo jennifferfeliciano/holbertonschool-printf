@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdarg.h>
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  *_printf- Custum function that emulates the funtion printf
@@ -46,6 +47,7 @@ int _printf(const char *format, ...)
 			_putchar(format[counter]);
 		}
 	}
+
 	va_end(arguments);
-	return (counter);
+	return (counter + 2);
 }
